@@ -7,15 +7,15 @@ The purpose of this tutorial is to share some "hidden" tricks in RStudio that ca
 
 You can customize your RStudio setup and layout in the Global Options. You can control everything from the arrangement of your windows, to the font color, to the default working directory and more. Here are just a few examples of settings you can change that may improve the look of your RStudio sessions. Go into Tools -&gt; Global Options and start on the General tab. This is where you can change the default working directory, and control what shows up when you start a new session or saves at the end of a session.
 
-![](SWT_RStudio/docs/General%20Preferences.png)
+![](RStudio_Tips_and_Tricks_v2_files/figure-markdown_github/General%20Preferences.png)
 
 <br> Under the next tab, Code, we can specify formatting styles we want to use. For example, wrap text helps make code more readable by automatically moving text to the next line when it reaches the edge of the window. This also where you can specify autocompletion functions that make coding faster.
 
-![](SWT_RStudio/docs/Code%20Preferences.png)
+![](RStudio_Tips_and_Tricks_v2_files/figure-markdown_github/Code%20Preferences.png)
 
 <br> The next tab, Appearance, is where you can change the color scheme of your script.
 
-![](SWT_RStudio/docs/Format%20Preferences.png)
+![](RStudio_Tips_and_Tricks_v2_files/figure-markdown_github/Format%20Preferences.png)
 
 <br> Click through some of the other tabs and familiarize yourself with some of the other things you can customize.
 
@@ -23,16 +23,16 @@ You can customize your RStudio setup and layout in the Global Options. You can c
 
 The history pane shows a searchable list of previously run commands. You can also access them in the console by hitting the `Up` arrow until you find it. The arrow key is good for code that was recently run, while the history pane is better for code that was run earlier in the session.
 
-![](SWT_RStudio/docs/History%20tab.png)
+![](RStudio_Tips_and_Tricks_v2_files/figure-markdown_github/History%20tab.png)
 
 <br> Names of functions, arguments, objects, and files can be autofilled using tab. To autofill a function, begin typing the name (ie fun) and when you see a drop down box of functions hit tab. This is a snippet and it provides the skeleton for commonly used functions. To import a file, the tab button can help find the file. Begin typing the filepath and hit `Tab` to see a drop down list of files. Scroll through the options using the `Up` and `Down` arrows and hit `Enter` to select the file or folder you want.
 
-![](SWT_RStudio/docs/tab-autofill-file-search.png)
+![](RStudio_Tips_and_Tricks_v2_files/figure-markdown_github/tab-autofill-file-search.png)
 
 <br>
 If you want to rename a variable, you can use Rename in Scope. Just highlight the name you want to change, go to Code -&gt; Rename in Scope and it will highlight all occurrences of that exact name so you can edit them all at once.
 
-![](SWT_RStudio/docs/Rename%20in%20Scope.png)
+![](RStudio_Tips_and_Tricks_v2_files/figure-markdown_github/Rename%20in%20Scope.png)
 
 <br> Sections of code can be folded, or hid, to make it easier to navigate through the script and focus on one section at a time. Braced code (ie functions or loops), code chunks (RMarkdown style), text sections between headers within RMarkdown documents, and code sections are foldable. Sections can be defined in three ways:
 
@@ -46,7 +46,7 @@ If you want to rename a variable, you can use Rename in Scope. Just highlight th
 
 You can use the Jump To menu at the bottom of the editor window or the outline view at top of the editor window. This shows the section names and you can quickly go to any one you choose.
 
-![](SWT_RStudio/docs/Jump%20to%20box.png)
+![](RStudio_Tips_and_Tricks_v2_files/figure-markdown_github/Jump%20to%20box.png)
 
 ### Keyboard Shortcuts
 

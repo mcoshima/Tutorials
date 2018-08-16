@@ -3,6 +3,15 @@ For Loops in R
 Meg Oshima
 July 27, 2018
 
+-   [What is a for loop?](#what-is-a-for-loop)
+-   [When and how do you use it?](#when-and-how-do-you-use-it)
+-   [Practice writing your own loops](#practice-writing-your-own-loops)
+-   [Control Statements](#control-statements)
+    -   [Possible solutions](#possible-solutions)
+-   [Using for loops to plot](#using-for-loops-to-plot)
+-   [Nested loops](#nested-loops)
+-   [Alternatives to for loops](#alternatives-to-for-loops)
+
 What is a for loop?
 -------------------
 
