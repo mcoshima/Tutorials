@@ -119,7 +119,7 @@ It is important to keep your scripts organized and annotated to help you and oth
 
 RProjects are a tool to organize your work and make it completely self-contained and transportable. This is ideal for when you are collaborating with others and working on code together. When a project is created, a file is created that holds the files associated with that project, including temporary files and the environment. When you open a project, the working directory is set to the project directory, the .RHistory file is loaded, previously loaded scripts are in the editor window, and the global environment is loaded. One way to open a new project is to open RStudio and click the create new project button.
 
-![](SWT_RStudio/docs/New%20Project.png)
+![](RStudio_Tips_and_Tricks_v2_files/figure-markdown_github/New%20Project.png)
 
 You can work with multiple projects at a time in different windows. Another way to create a project is with the package ProjectTemplate. It creates a project directory with pre-defined subfolders to help organize your materials.
 
