@@ -1,0 +1,23 @@
+# Send notifications to your phone or computer from R
+
+Use Pushbullet and RPushbullet to send messages, links, or files from R to your phone or computer. 
+1. You will need to sign up for a [Pushbullet](https://www.pushbullet.com/) account, using Facebook or Google account.  
+2. Download the app on your phone (iPhone and Android).    
+3. Log in to your account on your phone.  
+4. Test it out and see if your notifications are showing up on your phone. Try sending messages to yourself from the web browser. If your notifications aren't showing up on your phone, log out and log back in, or log out, restart phone, log back in.   
+4. Once you have that working, open R. 
+5. Install the package RPushbullet, information about the package can be found [here](http://dirk.eddelbuettel.com/code/rpushbullet.html).  
+6. Setup the .json file using the pbSetup() function. Set your phone to default if you want it to send notifications automatically there.  
+
+~~~~  
+
+install.packages("RPushbullet")  
+library(RPushbullet) 
+pbSetup()  
+
+~~~~  
+7. If you leave the function empty, it will ask you for a Access Token (api). Go to Pushbullet.com, Settings, Account, Create Access Token.  
+8. Copy that and paste into R session and hit `Enter`. You should see a list of all of your devices and a message saying Select a default device (0 for none): . Type in the number of the device you want to set as the default.  
+9. Try `pbPost("note", title = "Test", body = "This is a test sent from R.")`  
+10. Add `pbPost()` at the end of loops or long model runs to get notification that the runs are over.  
+ 
